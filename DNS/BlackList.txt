@@ -1,0 +1,81 @@
+
+# Author    KMS - Martin Dubois, P. Eng.
+# Copyright (C) 2022 KMS
+# License   http://www.apache.org/licenses/LICENSE-2.0
+# Product   CleanComputing
+# File      DNS/BlackList.txt
+
+# ===== .ca =====
+adservice.google.ca
+
+# ===== .com =====
+360yield.com
+3lift.com
+aaxads.com
+aaxdetect.com
+adition.com
+adlightning.com
+adnxs.com
+adnxs-simple.com
+adpone.com
+adsafeprotected.com
+adservice.google.com
+adsrv.com
+amazon-adsystem.com
+b2c.com
+betrad.com
+bfmio.com
+casalemedia.com
+contextweb.com
+creativecdn.com
+criteo.com
+ctxfl.com
+deepintent.com
+dyntrk.com
+emxdgt.com
+evidon.com
+ezodn.com
+ezoic.net
+fouanalytics.com
+googleapis.com
+googlesyndication.com
+googletagmanager.com
+googletagservice.com
+gumgum.com
+indexww.com
+ipredictiv.com
+js7k.com
+lijit.com
+moatads.com
+onetag-cdn.com
+onetag-sys.com
+outbrain.com
+paypalobjects.com
+pubmatic.com
+quanserve.com
+rubiconproject.com
+saambaa.com
+servnoid.com
+sholke.com
+smartadserver.com
+stackadapt.com
+technocratimedia.com
+tidaltv.com
+tynt.com
+yahou.com
+yimg.com
+zemanta.com
+
+# ===== .io =====
+1rx.io
+
+# ===== .net =====
+2mdn.net
+a-mo.net
+bidswitch.net
+doubleclick.net
+fastly.net
+openx.net
+
+# ===== .tv =====
+vidible.tv
