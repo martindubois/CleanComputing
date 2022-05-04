@@ -1,0 +1,43 @@
+
+# Author    KMS - Martin Dubois, P. Eng.
+# Copyright (C) 2022 KMS
+# License   http://www.apache.org/licenses/LICENSE-2.0
+# Product   CleanComputing
+# File      Windows10/Clean_APPX.txt
+
+1;Microsoft.549981C3F5F10                ;Cortana
+1;Microsoft.Advertising.Xaml*            ;Advertising
+2;Microsoft.BingWeather*                 ;Weather
+1;Microsoft.MicrosoftOfficeHub*          ;Office
+1;Microsoft.MicrosoftSolitaireCollection*;Solitaire Collection
+2;Microsoft.MicrosoftStickyNotes*        ;StickyNotes
+2;Microsoft.WindowsAlarm*                ;Alarms & Clock
+1;Microsoft.MixedReality.Portal*         ;Mixed Reality Portal
+2;Microsoft.Office.OneNote*              ;OneNote for Windows 10
+1;Microsoft.People*                      ;People
+2;Microsoft.ScreenSketch*                ;Snip & Sketch
+2;Microsoft.SkypeApp*                    ;Skype
+3;Microsoft.Windows.CapturePicker*       ;Capture Picker
+3;Microsoft.Windows.NarratorQuickStart   ;Narrator
+3;Microsoft.Windows.ParentalControl*     ;Parental Control
+3;Microsoft.Windows.PeopleExperienceHost*;People Experience Host
+2;Microsoft.Windows.Photos*              ;Photos
+2;Microsoft.Windowscommunicationsapps*   ;Calendar
+1;Microsoft.WindowsFeedbackHub*          ;Feedback Hub
+2;Microsoft.WindowsMaps*                 ;Maps
+2;Microsoft.WindowsSoundRecorder*        ;Voice Recorder
+1;Microsoft.Xbox.TCUI*                   ;Xbox (26)
+1;Microsoft.XboxApp*                     ;Xbox (27)
+1;Microsoft.XboxGameOverlay*             ;Xbox (28)
+3;Microsoft.XboxGameCallableUI*          ;Xbox (29)
+1;Microsoft.XboxGamingOverlay*           ;Xbox (30)
+1;Microsoft.XboxIdentityProvider*        ;Xbox (31)
+1;Microsoft.XboxSpeechToTextOverlay*     ;Xbox (32)
+1;Microsoft.YourPhone*                   ;Phone Link
+1;Microsoft.ZuneMusic*                   ;Groove Music
+1;Microsoft.ZuneVideo*                   ;Movies & TV
+
+# TODO Remove
+# - PC Health Check
+# - Tips
+# - Video Editor
