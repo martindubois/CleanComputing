@@ -54,4 +54,5 @@
 
 9;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Adobe offers.lnk
 9;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Booking.lnk
+9;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Booking.com.lnk
 9;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\LastPass.lnk
