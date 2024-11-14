@@ -1,6 +1,6 @@
 
 # Author    KMS - Martin Dubois, P. Eng.
-# Copyright (C) 2022 KMS
+# Copyright (C) 2022-2024 KMS
 # License   http://www.apache.org/licenses/LICENSE-2.0
 # Product   CleanComputing
 # File      Windows10/Clean.ps1
@@ -21,6 +21,21 @@ function Remove
     if ( $? )
     {
         Write-Output 'Removed'
+    }
+}
+
+function RemoveFile
+{
+    param ( $File )
+
+    if ( Test-Path $File -PathType Leaf )
+    {
+        Write-Output( '===== ' + $File + ' : Present =====' )
+        Remove-Item $File
+    }
+    else
+    {
+        Write-Output( '===== ' + $File + ' : Not present =====' )
     }
 }
 
@@ -46,7 +61,11 @@ function SuggestRemove
 
 ForEach ( $Line in $APPX )
 {
-    if ( $Line -match '^(?<Action>\d+);(?<Id>\S+)\s*;(?<Name>.+)' )
+    if ( "" -eq $Line )
+    {}
+    elseif ( $Line -match '^#s*' )
+    {}
+    elseif ( $Line -match '^(?<Action>\d+);(?<Id>\S+)\s*;(?<Name>.+)' )
     {
         $Package = Get-AppXPackage $Matches.Id
         if ($null -ne $Package)
@@ -63,10 +82,20 @@ ForEach ( $Line in $APPX )
             Write-Output ( '===== ' + $Matches.Name + ' : Not installed =====' )
         }
     }
+    elseif ( $Line -match '^(?<Action>\d+);(?<Id>.+)' )
+    {
+        switch ( $Matches.Action )
+        {
+            9 { RemoveFile -File $Matches.Id }
+        }
+    }
+    else
+    {
+        Write-Output( 'Error in line' )
+        Write-Output( $Line )
+    }
 }
-
 
 # ===== End =================================================================
 
 Write-Output OK
-
